@@ -9,7 +9,8 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 800px;
+    width: 98%;
+	max-width: 960px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -29,6 +30,13 @@ header {
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 	background-image: linear-gradient(
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+img {
+	max-width:30%;
+	min-width: 125px;
+}
+div {
+	column-count: 2;
 }
 header h2 {
 	font-size: 175%;
@@ -51,6 +59,7 @@ header img {
 	margin: 0;
 	padding: 0;
 	position: relative;
+
 }
 #nav_menu ul li {
 	float: left;
@@ -69,6 +78,7 @@ header img {
 	color: yellow;
 }
 #nav_menu ul ul {
+	width: 100%;
     display: none;
     position: absolute;
     top: 100%;
@@ -78,6 +88,7 @@ header img {
 }
 #nav_menu ul li:hover > ul {
 	display: block;
+
 }
 #nav_menu > ul::after {
     content: "";
@@ -87,18 +98,17 @@ header img {
 
 /* the styles for the section */
 section {
-	width: 525px;
-	float: right;
+	width: 90%;
 	padding: 0 20px 20px 20px;
 }
 section h1 {
-	font-size: 150%;
+	font-size: 125%;
 	padding: .5em 0 .25em 0;
 	margin: 0;
 }
 section h2 {
 	color: #800000;
-	font-size: 130%;
+	font-size: 110%;
 	padding: .5em 0 .25em 0;
 }
 section p {
@@ -135,15 +145,18 @@ article img {
 	border: 1px solid black;
 }
 
+h2 a {
+	font-size: 85%;
+}
+
 /* the styles for the aside */
 aside {
-	width: 215px;
-	float: right;
+	width: 90%;
 	padding: 0 0 20px 20px;
 }
 aside h2 {
 	color: #800000;
-	font-size: 130%;
+	font-size: 110%;
 	padding: .5em 0 .25em 0;
 }
 
